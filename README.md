@@ -11,4 +11,4 @@ innerHTML with template literals
 cloneNode()
 HTML <template>
 Notice that all of them have their pros and cons.
-https://filerepository.itslearning.com/9dde3bb0-5788-4085-947d-71b5a5346b3e?Token=HdYGAFS8DQB-f_1oAAAAACAAVRXS0CQjxXgvBJ8ZsVthOioYN8r7IWTl2daeN9lnkicAAA<img width="730" height="556" alt="image" src="https://github.com/user-attachments/assets/8fa382ad-ceac-46e0-9101-d72393291e9d" />
+<img width="730" height="556" alt="image" src="https://github.com/user-attachments/assets/8fa382ad-ceac-46e0-9101-d72393291e9d" />
