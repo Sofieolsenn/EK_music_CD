@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+/>
+    <script src="script.js" defer></script>
+    <title>music cd</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Music CD's</h1>
+        </header>
+            <form id="CD_data">
+                <div>
+                    <label for="author">Author</label>
+                    <input type="text" name="author" id="author" required>
+                </div>
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" required>
+                </div>
+                <div>
+                    <label for="year">Year</label>
+                    <input type="number" name="year" id="year" required>
+                </div>
+                <div>
+                    <input type="submit" value="Add">
+                </div>
+            </form>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Author</th>
+                        <th>Title</th>
+                        <th>Year</th>
+                        <th class="invisible">.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template id="template">
+                        <tr class="cd-row">
+                            <td id="add_author"></td>
+                            <td id="add_title"></td>
+                            <td id="add_year"></td>
+                            <td id="delete"><i class="fa-solid fa-trash"></i></td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
